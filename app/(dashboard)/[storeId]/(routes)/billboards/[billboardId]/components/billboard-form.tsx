@@ -106,7 +106,7 @@ export const BillboardForm: React.FC<BillboardFormProps> = ({
                 onClose={() => setOpen(false)}
                 onConfirm={onDelete}
                 loading={loading}
-                description="Reklam panosunu kaldırmak üzeresin bu işlem geri alınamaz."
+                description="Reklam panosunu silmek üzeresiniz bu işlem geri alınamaz."
             />
             <div className="flex items-center justify-between">
                 <Heading

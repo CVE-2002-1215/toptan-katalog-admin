@@ -92,6 +92,7 @@ export const SubCategoryForm: React.FC<SubCategoryFormProps> = ({
     return (
         <>
             <AlertModal
+                description="Alt Kategoriyi silmek üzeresiniz bu işlem geri alınamaz."
                 isOpen={open} 
                 onClose={() => setOpen(false)}
                 onConfirm={onDelete}

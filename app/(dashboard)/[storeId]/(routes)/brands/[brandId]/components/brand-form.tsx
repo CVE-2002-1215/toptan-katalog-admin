@@ -91,6 +91,7 @@ export const BrandForm: React.FC<BrandFormProps> = ({
     return (
         <>
             <AlertModal
+                description="Markayı silmek üzeresiniz bu işlem geri alınamaz."
                 isOpen={open} 
                 onClose={() => setOpen(false)}
                 onConfirm={onDelete}

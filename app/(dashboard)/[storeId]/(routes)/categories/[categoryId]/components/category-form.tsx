@@ -102,6 +102,7 @@ export const CategoryForm: React.FC<CategoryFormProps> = ({
     return (
         <>
             <AlertModal
+                description="Kategoriyi silmek üzeresiniz bu işlem geri alınamaz."
                 isOpen={open} 
                 onClose={() => setOpen(false)}
                 onConfirm={onDelete}

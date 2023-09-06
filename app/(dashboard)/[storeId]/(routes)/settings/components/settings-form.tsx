@@ -82,6 +82,7 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
     return (
         <>
             <AlertModal
+            description="Mağazayı silmek üzeresiniz bu işlem geri alınamaz."
                 isOpen={open} 
                 onClose={() => setOpen(false)}
                 onConfirm={onDelete}

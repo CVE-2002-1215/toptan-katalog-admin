@@ -135,7 +135,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                 onClose={() => setOpen(false)}
                 onConfirm={onDelete}
                 loading={loading}
-                description="Ürünü silmek üzeresen bu işlem geri alınamaz."
+                description="Ürünü silmek üzeresiniz bu işlem geri alınamaz."
             />
             <div className="flex items-center justify-between">
                 <Heading
