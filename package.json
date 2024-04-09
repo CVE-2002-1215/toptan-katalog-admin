@@ -22,8 +22,6 @@
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
     "@tanstack/react-table": "^8.9.3",
-    "@types/node": "20.4.8",
-    "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
@@ -37,7 +35,8 @@
     "next": "^13.4.13",
     "next-cloudinary": "^4.18.0",
     "next-themes": "^0.2.1",
-    "postcss": "8.4.27",
+    "planetscale": "^2.1.0",
+    "postcss": "^8.4.38",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.45.4",
@@ -46,11 +45,13 @@
     "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.6",
-    "typescript": "5.1.6",
     "zod": "^3.21.4",
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "prisma": "^5.1.1"
+    "@types/node": "20.12.5",
+    "@types/react": "18.2.74",
+    "prisma": "^5.1.1",
+    "typescript": "5.4.4"
   }
 }
